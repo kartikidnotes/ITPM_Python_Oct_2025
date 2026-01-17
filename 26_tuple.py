@@ -42,12 +42,36 @@
 
 
 # count and index
-t=(120,30,40,10,10,10,10)
-print(t.count(10))
-print(t.index(10))
+# t=(120,30,40,10,10,10,10)
+# print(t.count(10))
+# print(t.index(10))
 
-# convert list - tuple
+# # convert list - tuple
 
-lst=[10,20,30,40]
-t=tuple(lst)
-print(t)
+# lst=[10,20,30,40]
+# t=tuple(lst)
+# print(t)
+
+
+# 10 20
+# 30 40
+#nested tuple
+# t=((10,20),(30,40))
+# for i in t:
+#     for j in i:
+#         print(j,end=" ")
+
+
+#swap values 
+# a,b=10,20
+# print(a,b)
+# a,b=b,a
+# print(a,b)
+
+
+# min and max -- tuple
+t=(100,50,90)
+print(max(t))
+print(min(t))
+
+
